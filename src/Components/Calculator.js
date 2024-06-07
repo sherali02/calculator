@@ -11,7 +11,7 @@ const Calculator = () => {
     if(data==="Error"){
       setData("Error")
     }
-    else
+    else // eslint-disable-next-line
     setData(eval(data).toString());
     }
     catch{
